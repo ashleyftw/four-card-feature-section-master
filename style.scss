@@ -40,10 +40,11 @@ body {
     margin: 0 auto;
     padding: var(--mar-sm) 0;
     h1 {
-      font-size: var(--fs-xxl);
+      font-size: var(--fs-xxxl);
     }
     p {
-        margin: 0;
+        margin: 0 auto;
+        max-width: 70%;
     }
   }
 }

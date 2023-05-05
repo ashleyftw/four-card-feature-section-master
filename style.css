@@ -150,10 +150,11 @@ body {
     padding: var(--mar-sm) 0;
   }
   .hero h1 {
-    font-size: var(--fs-xxl);
+    font-size: var(--fs-xxxl);
   }
   .hero p {
-    margin: 0;
+    margin: 0 auto;
+    max-width: 70%;
   }
 }
 
