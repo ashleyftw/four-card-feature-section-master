@@ -1,0 +1,23 @@
+@mixin card {
+    padding: var(--pad-md) var(--pad-lg) var(--pad-lg);
+    border-radius: 0.5rem;
+    box-shadow: 1px 2px 15px 1px rgba(99, 98, 98, 0.2);
+    margin: var(--mar-md) 0;
+
+    &__feature {
+        color: var(--clr-neutral-vd-blue);
+        font-size: 1.25rem;
+    }
+    &__text {
+        font-size: 0.75rem;
+        margin-top: var(--mar-sm);
+        margin-bottom: var(--mar-xl);
+    }
+    &__icon {
+        margin-left: auto;
+    }
+    @media (min-width: 700px) {
+        max-width: 350px;
+        height: 250px;
+    }
+}

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+//font-family
+$ff: 'Poppins', sans-serif;
+
+//font-size
+$fs: (
+    sm: 0.5rem,
+    base: 15px,
+    md: 1.125rem,
+    lg: 1.5rem,
+    xl: 1.75rem,
+    xxl: 2rem,
+    xxxl: 2.5rem
+);
+
+//font-weight
+$fw: (
+    thin: 200,
+    reg: 400,
+    bold: 600
+);
+
+:root {
+    @each $key, $val in $fs {
+        --fs-#{$key}: #{$val};
+    }
+    @each $key, $val in $fw {
+        --fw-#{$key}: #{$val};
+    }
+};
